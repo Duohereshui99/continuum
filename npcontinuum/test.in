@@ -1,0 +1,9 @@
+#-------input file for npcontinuum-------
+
+&pot v0=-72.15d0 r0=0d0 a=1.484d0 /
+
+&systems mass_1=1d0 mass_2=1d0 
+        z1=1d0   z2=0d0
+        E=8d0 L=10  /
+        
+&meshs  nint=60000 /
