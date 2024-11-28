@@ -3,7 +3,7 @@ FC = gfortran
 LD = $(FC)
 
 # 定义编译选项
-F90FLAGS = -Wall -Wextra
+FFLAGS = -O3 -Wall -Wextra -ffixed-line-length-0 -cpp -g
 LDFLAGS =  
 
 # 定义目标文件
