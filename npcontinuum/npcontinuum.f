@@ -98,7 +98,7 @@ ccccccc
 
             write(*,*) 'L=',l,',','Sl=',Sl
 ccccccc
-            c=(hln-Sl*hlp)*(0d0,1d0)/2d0/y(nint-2)
+            c=(hln-Sl*hlp)*(0d0,1d0)/2d0/y(nint-2)/k
             !match point的常数
             !write(*,*) 'c=',c
 ccccccc
